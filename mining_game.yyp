@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,7 +35,10 @@
   },
   "name":"mining_game",
   "resources":[
+    {"id":{"name":"obj_gen","path":"objects/obj_gen/obj_gen.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"spr_terrain","path":"sprites/spr_terrain/spr_terrain.yy",},},
+    {"id":{"name":"tls_terrain","path":"tilesets/tls_terrain/tls_terrain.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
