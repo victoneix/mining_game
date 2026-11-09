@@ -10,6 +10,8 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"_Libraries","folderPath":"folders/_Libraries.yy","name":"_Libraries","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"FastNoise","folderPath":"folders/_Libraries/FastNoise.yy","name":"FastNoise","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,8 +28,16 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_twist_blur-1.0.0","name":"io.gamemaker.gm_filter_twist_blur-1.0.0","path":"io.gamemaker.gm_filter_twist_blur-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_greyscale-1.0.0","name":"io.gamemaker.gm_filter_greyscale-1.0.0","path":"io.gamemaker.gm_filter_greyscale-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_large_blur-1.0.0","name":"io.gamemaker.gm_filter_large_blur-1.0.0","path":"io.gamemaker.gm_filter_large_blur-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_pixelate-1.0.0","name":"io.gamemaker.gm_filter_pixelate-1.0.0","path":"io.gamemaker.gm_filter_pixelate-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_linear_blur-1.0.0","name":"io.gamemaker.gm_filter_linear_blur-1.0.0","path":"io.gamemaker.gm_filter_linear_blur-1.0.0.yyp",},
+  ],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"bulb_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"bulb_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -35,8 +45,14 @@
   },
   "name":"mining_game",
   "resources":[
+    {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
+    {"id":{"name":"obj_gen_b","path":"objects/obj_gen_b/obj_gen_b.yy",},},
     {"id":{"name":"obj_gen","path":"objects/obj_gen/obj_gen.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"FastNoiseLite","path":"scripts/FastNoiseLite/FastNoiseLite.yy",},},
+    {"id":{"name":"spr_font","path":"sprites/spr_font/spr_font.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_terrain","path":"sprites/spr_terrain/spr_terrain.yy",},},
     {"id":{"name":"tls_terrain","path":"tilesets/tls_terrain/tls_terrain.yy",},},
   ],
